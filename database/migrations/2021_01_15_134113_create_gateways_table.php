@@ -14,7 +14,7 @@ class CreateGatewaysTable extends Migration
     public function up()
     {
         Schema::create('gateways', function (Blueprint $table) {
-            $table->id('gateway_id');
+            $table->id();
             $table->tinyIncrements('gateway_plan');
             $table->unsignedInteger('gateway_user_id');
             $table->string('gateway_title', 100);
