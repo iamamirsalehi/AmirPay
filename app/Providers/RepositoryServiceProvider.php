@@ -5,9 +5,9 @@ namespace App\Providers;
 use EloquentPaymentRepository;
 use Illuminate\Support\ServiceProvider;
 use App\Repository\Contracts\PaymentRepositoryInterface;
-use App\Repository\Eloquent\EloquentStatisticRepository;
 use App\Repository\Eloquent\User\EloquentUserRepository;
 use App\Repository\Contracts\StatisticsRepositoryInterface;
+use App\Repository\Eloquent\Statistic\EloquentStatisticRepository;
 
 class RepositoryServiceProvider extends ServiceProvider
 {

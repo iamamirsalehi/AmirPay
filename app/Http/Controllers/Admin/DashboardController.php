@@ -25,6 +25,6 @@ class DashboardController extends AdminController
         $statistics->todayTotalWithdrawals   = $this->statisticsRepository->getTodayTotalWithdrawals();
         $statistics->pendingGateways         = $this->statisticsRepository->getPendingGateways();
 
-        return view();
+        return view('admin.dashboard.index', compact('statistics'));
     }
 }

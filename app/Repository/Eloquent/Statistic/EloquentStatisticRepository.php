@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\Eloquent;
+namespace App\Repository\Eloquent\Statistic;
 
 use App\Repository\Contracts\StatisticsRepositoryInterface;
 
